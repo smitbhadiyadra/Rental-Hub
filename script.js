@@ -51,7 +51,7 @@ function addCards(){
         clutter += `<div class="box" data-name="${card.dataName}">
         <div class="card">
             <div class="card-img">
-                <img src="/imgs/${card.image}" alt="">
+                <img src="imgs/${card.image}" alt="">
             </div>
             <div class="card-info">
                 <h6 class="text-title"><i class="ri-map-pin-line"></i> ${card.name} </h6>
@@ -102,7 +102,7 @@ function addScrollCards(){
         <div class="box">
             <div class="card" data-name="${card.dataName}">
                 <div class="card-img">
-                    <img src="/imgs/${card.image}" alt="">
+                    <img src="imgs/${card.image}" alt="">
                 </div>
                 <div class="card-info">
                     <h6 class="text-title"><i class="ri-map-pin-line"></i> ${card.name} </h6>
